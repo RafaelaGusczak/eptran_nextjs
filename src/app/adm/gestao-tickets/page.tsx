@@ -62,7 +62,7 @@ export default function Gerenciamento() {
           <Input
             type="text"
             placeholder="Procurar"
-            className="pl-8 w-full md:w-80"
+            className="pl-8 w-full md:w-80" 
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
           />
